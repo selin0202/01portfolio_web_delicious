@@ -1,0 +1,257 @@
+@charset "utf-8";
+@media (min-width:600px) {
+    /**헤더시작**/
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+    }
+    .delicious a {
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        color: #dfa25f;
+    }
+    .cafe a {
+        font-size: 22px;
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+    }
+    .a {
+        width: 30px;
+    }
+    .a:hover {
+        cursor: pointer;
+    }
+    .a img {
+        width: 100%;
+        height: 100%;
+    }
+    .header_flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    /*헤더 ul 시작*/
+    header ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        font-family: 'Oswald', sans-serif;
+        background-color: #fff;
+        text-align: center;
+    }
+    header li {
+        padding: 30px;
+        border-bottom: 1px solid #bbb;
+    }
+    header li:nth-child(1) a {
+        color: #dfa25f;
+    }
+    header li:hover {
+        background-color: #dfa25f;
+        cursor: s;
+    }
+    header li:hover a {
+        color: #fff;
+    }
+    header li:hover button {
+        background-color: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+    header li a {
+        text-decoration: none;
+        padding: 30px;
+        color: #000;
+    }
+    header button {
+        background-color: #dfa25f;
+        width: 130px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        color: #fff;
+    }
+    .b {
+        display: none;
+    }
+    /*푸터시작*/
+    footer {
+        width: 100%;
+        height: auto;
+        background-image: url("../img/main.img/reserve_img1.jpg");
+    }
+    #footer_top {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    /*푸터 첫번째 박스 시작*/
+    .footer_box1 {
+        width: 40%;
+        height: 50%;
+        padding: 30px 20px;
+    }
+    #footer_top h3 {
+        margin-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .footer_box1_p1 {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        line-height: 20px;
+        margin-bottom: 8px;
+        font-weight: 300;
+    }
+    .footer_box1_p2 {
+        color: #fff;
+        font-family: 'Karla', sans-serif;
+        margin: 25px 0;
+    }
+    .footer_box1_p3 {
+        font-size: 15px;
+        color: #fff;
+        font-family: 'Karla', sans-serif;
+        padding: 10px;
+    }
+    .footer_icon_wrap {
+        display: flex;
+        width: 100%;
+    }
+    .footer_icon_box {
+        padding: 10px;
+        border: 1px solid #fff;
+        margin-right: 5px
+    }
+    .footer_icon_wrap img {
+        width: 16px;
+        height: 16px;
+    }
+    /*푸터 두번째 박스 시작*/
+    .footer_box2 {
+        width: 40%;
+        height: 50%;
+        padding: 30px 20px;
+    }
+    .footer_box2 h3 {
+        margin-bottom: 40px;
+    }
+    .footer_box2_p1 a {
+        line-height: 40px;
+        color: #fff;
+        font-family: 'Karla', sans-serif;
+    }
+    .footer_updated {
+        padding: 3px 6px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 13px;
+    }
+    .footer_box2_p2 a {
+        font-size: 15px;
+        color: #dfa25f;
+        line-height: 40px;
+        font-family: 'Karla', sans-serif;
+    }
+    /*푸터 세번째 박스 시작*/
+    .footer_box3 {
+        width: 40%;
+        height: 95%;
+        padding: 30px 20px;
+    }
+    .footer_box3 h3 {
+        margin-bottom: 40px;
+    }
+    /*푸터 ul 박스 시작*/
+    .footer_li1 {
+        padding: 10px;
+        font-size: 12px;
+        color: #bbb;
+        font-family: 'Karla', sans-serif;
+    }
+    .footer_li2 {
+        padding: 10px;
+    }
+    .footer_li2 a {
+        font-family: 'Karla', sans-serif;
+        font-size: 15px;
+        color: #fff;
+    }
+    .footer_li3 {
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+    /*푸터 4번째 박스 시작*/
+    .footer_box4 {
+        width: 40%;
+        height: 100%;
+        padding: 30px 20px;
+    }
+    .footer_box4 h3 {
+        margin-bottom: 40px;
+    }
+    .footer_box4_img_box {
+        width: 100%;
+        height: 190px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .footer_box4_trs {
+        width: 30%;
+        height: 40%;
+        margin: 1.6%;
+    }
+    .footer_box4_trs img {
+        width: 100%;
+        height: 100%;
+    }
+    .footer_box4_p1 {
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    /*푸터 바텀시작*/
+    #footer_bottom {
+        width: 100%;
+        height: 96px;
+        padding: 30px 0;
+    }
+    #footer_bottom ul {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-family: 'Karla', sans-serif;
+    }
+    #footer_bottom ul li {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .ft_bt_span1 {
+        color: #ccc;
+    }
+    .ft_bt_span2 a {
+        color: #fff;
+    }
+    .ft_bt_heart {
+        color: red;
+        padding: 5px;
+    }
+}
